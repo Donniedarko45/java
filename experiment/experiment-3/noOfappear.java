@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class noOfappear{
+public class noOfappear {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter the number of elements in the array: ");
@@ -14,12 +14,13 @@ public class noOfappear{
     }
     System.out.println("Enter the number: ");
     int num = sc.nextInt();
-    int count=0;
+    int count = 0;
     for (int i = 0; i < n; i++) {
-      if(arr[i]==num){
+      if (arr[i] == num) {
         count++;
       }
     }
-    System.out.println(num+ "appears"+count + "times");
+    sc.close();
+    System.out.println(num + "appears" + count + "times");
   }
 }

@@ -15,8 +15,10 @@ class Student {
     Student karti = new Student();
     System.out.println(karti);
     Student abc = new Student("kartikey", 69);
+    System.out.println(abc);
     System.out.println(abc.name);
     System.out.println(abc.age);
+    System.out.println(karti);
   }
 
 }
